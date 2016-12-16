@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/pro005"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Historia"
+            android:id="@+id/btnIGN"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Productos"
+            android:id="@+id/btnProductos"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Estaciones Rastreo"
+            android:id="@+id/btnEstaciones"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Nomenclator"
+            android:id="@+id/btnNomen"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Geoportal"
+            android:id="@+id/btngeoportal"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Contactenos"
+            android:id="@+id/btnContanto"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>
